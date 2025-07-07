@@ -13,6 +13,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-size: 20px;
@@ -22,12 +25,19 @@
     padding: 18px 36px;
     border: none;
 }
+
+/* header style */
+.header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* Nav style  */
 nav{
     display: flex;
      align-items: center;
     justify-content: space-between;
-    margin: 50px 230px;
+    margin: 0px 230px;
 }
 nav h3{
     font-size: 45px;
@@ -45,4 +55,31 @@ nav ul li a{
 .nav-item{
     display:flex ;
     align-items: center;
+}
+
+/* Banner style */
+
+.banner-greetings{
+font-size: 45px;
+font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+}
+
+.banner-profile-pic{
+    width: 584px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 215px;
+}
+.banner-content{
+    width: 585px;
 }
