@@ -209,3 +209,36 @@ margin-top: 200px;
     text-align: center;
     margin-bottom: 113px;
 }
+/* Footer style */
+.footer{
+    background-color: #FFF8FF;
+    display: flex;
+    gap: 117px;
+    padding:130px 230px ;
+
+}
+.footer-header{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+.footer-icon{
+    height: 24px;
+    width: 24px;
+    background-color: #FFFFFF;
+    margin-right: 24px;
+    margin-top: 30px;
+}
+.message-form{
+    width: 460px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding:18px 30px;
+    margin-bottom: 40px;
+    border: none;
+}
+.footer-column{
+    width: 562px;
+   
+}
