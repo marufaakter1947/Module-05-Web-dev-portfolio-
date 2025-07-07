@@ -174,3 +174,38 @@ margin-top: 200px;
     display: flex;
     gap: 24px;
 }
+/* REsume style */
+.resume-header-main{
+    margin-top: 112px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.resume-card{
+    width: 511px;
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: bold;
+  margin-top: 30px;
+}
+.resume-header{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.resume-description{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 71px;
+    margin-bottom: 50px;
+}
+.download-btn{
+    text-align: center;
+    margin-bottom: 113px;
+}
